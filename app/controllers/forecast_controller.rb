@@ -17,12 +17,23 @@ class ForecastController < ApplicationController
     # ==========================================================================
 
 
+   
 
-    @current_temperature = "Replace this string with your answer."
+    @current_temperature = @current_temp
+    
+    
+    
+    
+    
 
-    @current_summary = "Replace this string with your answer."
+    @current_summary = @current_summary_weather
 
-    @summary_of_next_sixty_minutes = "Replace this string with your answer."
+
+    
+    
+
+    @summary_of_next_sixty_minutes = @hourly_summary
+    
 
     @summary_of_next_several_hours = "Replace this string with your answer."
 
